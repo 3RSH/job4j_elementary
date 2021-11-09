@@ -12,9 +12,9 @@ public class Point {
     System.out.println("result (0, 0) to (2, 0) " + result);
 
     result = Point.distance(0, 1, 2, 2);
-    System.out.println("result (0, 0) to (2, 0) " + result);
+    System.out.println("result (0, 1) to (2, 3) " + result);
 
     result = Point.distance(3, 3, 4, 4);
-    System.out.println("result (0, 0) to (2, 0) " + result);
+    System.out.println("result (3, 3) to (4, 4) " + result);
   }
 }
