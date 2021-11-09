@@ -11,7 +11,7 @@ public class Point {
     double result = Point.distance(0, 0, 2, 0);
     System.out.println("result (0, 0) to (2, 0) " + result);
 
-    result = Point.distance(0, 1, 2, 2);
+    result = Point.distance(0, 1, 2, 3);
     System.out.println("result (0, 1) to (2, 3) " + result);
 
     result = Point.distance(3, 3, 4, 4);
